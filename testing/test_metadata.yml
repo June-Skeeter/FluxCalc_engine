@@ -1,0 +1,126 @@
+Ux_mean:
+  originalName: Ux_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+Uy_mean:
+  originalName: Uy_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+Uz_mean:
+  originalName: Uz_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+Ts_mean:
+  originalName: Ts_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+Diagnostic_CSAT_mean:
+  originalName: Diagnostic_CSAT_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+CO2_mean:
+  originalName: CO2_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+H2O_mean:
+  originalName: H2O_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+press_mean:
+  originalName: press_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+LI7500_diag_mean:
+  originalName: LI7500_diag_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+LI7550_SignalStrength_mean:
+  originalName: LI7550_SignalStrength_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+seconds_mean:
+  originalName: seconds_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+nanoseconds_mean:
+  originalName: nanoseconds_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+Diagnostic_7700_mean:
+  originalName: Diagnostic_7700_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+CH4_density_mean:
+  originalName: CH4_density_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+CH4_mole_fraction_mean:
+  originalName: CH4_mole_fraction_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+Temperature_mean:
+  originalName: Temperature_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+Pressure_mean:
+  originalName: Pressure_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
+RSSI_mean:
+  originalName: RSSI_mean
+  ignore: false
+  unit: null
+  dtype: <f8
+  frequency: null
+  variableDescription: null
