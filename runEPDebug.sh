@@ -1,30 +1,34 @@
 # !/bin/bash
+rootdir=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
-echo $0
-# mypath=$(pwd)
-# inipath=$mypath$"/custom/BinTest_linux_ghg.eddypro"
-# rppath=$mypath$"/eddypro-engine/bin/linux/eddypro_rp"
 
-# if [ -d ./custom/binOut ]; then
-#     rm -rf custom/binOut 
-#     mkdir custom/binOut
-# else
-#     mkdir custom/binOut
-# fi
+if [ -d $rootdir$"/custom/binOut" ]; then
+    rm -rf $rootdir$"/custom/binOut"
+fi
+mkdir $rootdir$"/custom/binOut" 
 
-# if [ -d ./tmp ]; then
-#     rm -rf tmp 
-# fi
-# mkdir tmp
+if [ -d $rootdir$"/tmp" ]; then
+    rm -rf $rootdir$"/tmp" 
+fi
+mkdir $rootdir$"/tmp"
 
-# cd $mypath$"/eddypro-engine/prj"
-# rm -rf ../bin ../obj
-# make rp
-# # make fcc
-# cp $mypath$/7za $mypath$"/eddypro-engine/prj/bin"
-# cd ../
-# cd eddypro-engine
-# $rppath -s linux $inipath
+if [ $# -gt 0 ]
+  then
+    if [ $1 = "make" ]; then
+    
+        rm -rf $rootdir$"/eddypro-engine/bin" $rootdir$"/eddypro-engine/obj"
+
+        cd $rootdir$"/eddypro-engine/prj"
+        make rp
+        make fcc
+        cp $rootdir$"/7za" $rootdir$"/eddypro-engine/prj/bin"
+
+    fi
+fi
+
+cd $rootdir$"/eddypro-engine"
+
+$rootdir$"/eddypro-engine/bin/linux/eddypro_rp" -s linux $rootdir$"/custom/BinTest_linux.eddypro"
 
 
 
