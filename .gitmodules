@@ -1,0 +1,3 @@
+[submodule "eddypro-engine"]
+	path = eddypro-engine
+	url = https://github.com/June-Skeeter/eddypro-engine
