@@ -6,7 +6,7 @@ Toolset for modifying my custom fork of the eddypro-engine
 
 ## Setup
 
-This is straightforward on linux.  Installing fortran on windows is more of a PITA.  It can be done, but I won't provide instruction here:
+These instructions are only for linux:
 
 * To setup the development environment:
 

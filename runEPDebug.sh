@@ -1,6 +1,6 @@
 # !/bin/bash
 mypath=$(pwd)
-inipath=$mypath$"/custom/BinTest_linux.eddypro"
+inipath=$mypath$"/custom/BinTest_linux_ghg.eddypro"
 rppath=$mypath$"/eddypro-engine/bin/linux/eddypro_rp"
 
 if [ -d ./custom/binOut ]; then
@@ -15,9 +15,13 @@ if [ -d ./tmp ]; then
 fi
 mkdir tmp
 
-cd $mypath$"/eddypro-engine/prj"
-rm -rf ../bin ../obj
-make rp
-cd ../
+# cd $mypath$"/eddypro-engine/prj"
+# rm -rf ../bin ../obj
+# make rp
+# cd ../
+cd eddypro-engine
 $rppath -s linux $inipath
+
+
+
 
