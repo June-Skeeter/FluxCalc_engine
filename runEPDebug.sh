@@ -28,8 +28,10 @@ fi
 
 cd $rootdir$"/eddypro-engine"
 
-$rootdir$"/eddypro-engine/bin/linux/eddypro_rp" -s linux $rootdir$"/custom/BinTest_linux.eddypro"
+# $rootdir$"/eddypro-engine/bin/linux/eddypro_rp" -s linux $rootdir$"/custom/BinTest_linux.eddypro"
 
+
+$rootdir$"/eddypro-engine/bin/linux/eddypro_rp" -s linux $rootdir$"/custom/SCL.eddypro"
 
 
 
