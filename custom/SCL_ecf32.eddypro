@@ -10,7 +10,7 @@ sw_version=7.0.9
 ini_version=4.5.0
 project_id=t
 file_type=7
-file_prototype=yyyy-mm-ddTHHMM.float32_array
+file_prototype=yyyy-mm-ddTHHMM.ecf32
 use_pfile=1
 proj_file=../custom/binData/SCL_mod_mini.metadata
 use_dyn_md_file=0
@@ -101,7 +101,7 @@ sa_min_st_le=3.0000
 sa_min_st_h=5.0000
 add_sonic_lptf=1
 horst_lens=2
-ex_file=/mnt/c/Users/jskeeter/OneDrive - NRCan RNCan/Documents/temp/testOut/eddypro_t_fluxnet_2025-05-02T170153_exp.csv
+ex_file=../custom/binOut/eddypro_t_fluxnet_2025-05-02T151411_exp.csv
 sa_bin_spectra=
 sa_full_spectra=
 ex_dir=
@@ -130,7 +130,7 @@ sa_gas4_g1_start=1
 sa_gas4_g1_stop=12
 
 [RawProcess_General]
-data_path=../custom/binData
+data_path=/mnt/g/My Drive/FileDump/SCL_Testing/intermediate
 recurse=1
 use_geo_north=0
 mag_dec=0
